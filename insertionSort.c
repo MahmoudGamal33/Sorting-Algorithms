@@ -5,14 +5,14 @@ void Insertion_Sort(int arr[], int n)
     {
         int hole = i;
 
-		int value = arr[hole];
+	int value = arr[hole];
 
-		while((hole>0) && (arr[hole-1]>value))
+	while((hole>0) && (arr[hole-1]>value))
         {
             arr[hole] = arr[hole-1];
             --hole;
         }
 
-		arr[hole] = value;
+	arr[hole] = value;
     }
 }
