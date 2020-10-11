@@ -5,20 +5,20 @@ void Selection_Sort(int arr[], int n)
     {
         int iMin=i;
         
-		int j = 0;
+	int j = 0;
         for(j=i+1; j<n; j++)
-		{
+	{
             if(arr[j]<arr[iMin])
-			{
+	    {
                 iMin=j;
-			}
-			else
-			{
-				//
-			}
-		}	
+	    }
+	    else
+	    {
+		//
+	    }
+	}	
         
-		int temp = arr[i];
+	int temp = arr[i];
         arr[i] = arr[iMin];
         arr[iMin] = temp;
     }
