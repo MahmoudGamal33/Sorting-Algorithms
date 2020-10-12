@@ -8,7 +8,7 @@ int main()
     int arr[] = {45,22,335,41,10,6,4,8,1,55};
     int n = sizeof(arr) / sizeof(int);
 
-    qsort(arr, sizeof(arr)/sizeof(int), sizeof(int), Comparison_Func);
+    qsort(arr, n, sizeof(int), Comparison_Func);
 
     int i = 0;
     for(i=0; i<n; i++)
